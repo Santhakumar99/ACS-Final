@@ -1,0 +1,28 @@
+.card-title {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+span.Rm-text {
+  margin-right: 7px;
+}
+/* td {
+  text-align: -webkit-right;
+} */
+td.QhFeesCollected {
+  padding-left: 27px;
+}
+span.countValue {
+  /* text-align: left; */
+  float: left;
+}
+img.DPD-images {
+  width: 150px;
+  height: 150px;
+  /* margin: auto; */
+}
+.DPD {
+  margin: auto;
+  padding: 10px;
+}

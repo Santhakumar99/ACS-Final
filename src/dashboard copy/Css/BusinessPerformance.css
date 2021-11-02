@@ -1,0 +1,15 @@
+.card-title {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+span.Rm-text {
+  margin-right: 7px;
+}
+/* td {
+  text-align: -webkit-right;
+} */
+td.QhFeesCollected {
+  padding-left: 27px;
+}

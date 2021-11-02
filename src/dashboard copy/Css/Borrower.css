@@ -1,0 +1,19 @@
+.features-section {
+  padding: 50px 0 !important;
+}
+.features-card-container {
+  padding: 10px !important;
+  margin-bottom: -25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* border: 1px solid gray; */
+  background: rgb(255, 255, 255) !important;
+  border: 1px gray;
+  border-radius: 10px !important;
+  box-shadow: 0 5px 10px #c4cdeb;
+}
+p {
+  color: blue !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

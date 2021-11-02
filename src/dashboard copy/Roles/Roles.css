@@ -1,0 +1,21 @@
+.MuiDataGrid-columnHeaderWrapper {
+  background-color: #0984e1;
+  color: white;
+  font-weight: 700;
+}
+.MuiDataGrid-cell.MuiDataGrid-cell--textLeft {
+  color: blueviolet;
+}
+button.contact-us-form-btn {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.addButton {
+  display: inline-block;
+  float: right !important;
+  margin-top: 50px;
+}
+button.btn.btn-primary.add {
+  background: linear-gradient(60deg, #0066ff, #ff99ff);
+  border: none;
+}

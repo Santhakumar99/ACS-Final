@@ -1,0 +1,153 @@
+.approval-head {
+  /* margin: 20px; */
+  margin: 10px 10px !important;
+}
+p.profile-details {
+  color: black !important;
+  font-size: 20px;
+  padding: 5px;
+}
+.sc-dlfnuX.gXlmGk.rdt_TableHeadRow {
+  background-color: #0984e1 !important;
+  color: white !important;
+  font-weight: 700;
+}
+@media screen and (max-width: 576px) {
+  p.profile-details {
+    color: black !important;
+    font-size: 12px;
+    padding: 5px;
+  }
+}
+@media screen and (max-width: 991px) {
+  p.profile-details {
+    color: black !important;
+    font-size: 17px;
+    padding: 1px;
+  }
+}
+.row.profile-Loan {
+  margin-top: 30px;
+}
+.card.profile {
+  padding-bottom: 40px;
+}
+p.profile-details {
+  color: black !important;
+  font-size: 14px;
+  padding: 15px !important;
+  text-align: left;
+}
+
+span.profile-content {
+  width: 50%;
+  display: inline-flex;
+  float: right;
+  color: blueviolet;
+}
+span.LoanContent {
+  width: 50% !important;
+  display: inline-flex;
+  float: right;
+  color: blueviolet;
+}
+@media screen and (min-width: 992px) {
+  span.LoanContent {
+    width: 50%;
+    display: inline-flex;
+    float: right;
+    color: blueviolet;
+  }
+}
+.Action-buttons {
+  padding: 15px;
+}
+.approv-button {
+  margin: 10px;
+}
+.reject.button {
+  margin: 10px;
+}
+/* .LaonApplications {
+  margin-top: 80px;
+} */
+
+button.btn.btn-primary.approve {
+  width: 200px !important;
+  background: linear-gradient(60deg, #0066ff, #ff99ff);
+  margin: 10px !important;
+  border: none;
+}
+button.btn.btn-danger.reject {
+  width: 200px !important;
+  margin: 10px !important;
+  background: linear-gradient(60deg, #0066ff, #ff99ff);
+  border: none;
+}
+.approv-button {
+  display: flex;
+}
+p.Loan-app-view {
+  color: blueviolet;
+}
+span.LoanContent.count {
+  text-align: end;
+  justify-content: end;
+  font-size: 14px;
+}
+.col-lg-6.contact-us-form-group {
+  display: inline-flex;
+  /* margin: 0px; */
+}
+@media screen and (max-width: 576px) {
+  p.profile-details {
+    color: black !important;
+    font-size: 10px;
+    padding: 15px !important;
+    text-align: left;
+  }
+  span.LoanContent.count {
+    text-align: end;
+    justify-content: end;
+    font-size: 10px;
+  }
+}
+.card-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+button.contact-us-form-btn.approveReject {
+  margin: 10px;
+}
+.card-title.loanApp {
+  font-size: 24px !important;
+}
+p.loanId {
+  font-size: 17px;
+}
+.card-title.trans-head {
+  font-size: 24px !important;
+}
+.card-title.outstanding {
+  font-size: 18px !important;
+}
+.sc-gsTEea.iiHmzE.rdt_TableHead {
+  height: 50px;
+}
+.sc-dQoVA.huizgM {
+  font-size: 14px;
+}
+.sc-dlfnuX.gXlmGk.rdt_TableHeadRow {
+  background-color: #0984e1 !important;
+  color: white !important;
+  font-weight: 700;
+}
+span.name {
+  padding-right: 5px;
+}
+.dxtjMA {
+  background-color: #0984e1;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+}

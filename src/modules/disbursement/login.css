@@ -1,0 +1,38 @@
+/* div#login-page {
+    height: 753px;
+} */
+.col-md-12.contact-us-form-group {
+  margin-top: 20px;
+}
+@media (max-width: 991px) {
+  .col-lg-6.contact-us-form-group {
+    margin: 5px !important;
+  }
+}
+.contact-us-section {
+  padding: 100px 0;
+  background: linear-gradient(
+    30deg,
+    rgba(236, 65, 255, 0.1),
+    rgba(9, 132, 227, 0.1)
+  );
+  min-height: 100vh;
+  margin: 0 auto;
+}
+span#user-error,
+span#password-error,
+span#email-error,
+span#OldPassword-error,
+span#NewPassword-error,
+span#ConfirmPassword-error {
+  color: red;
+  font-size: 14px;
+  padding-left: 10px;
+}
+i#togglePassword {
+  margin-right: 30px !important;
+  display: flex !important;
+  position: absolute !important;
+  right: 0 !important;
+  margin-top: -37px !important;
+}

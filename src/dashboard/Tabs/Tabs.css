@@ -1,0 +1,109 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,200&display=swap'); */
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  /* font-family: 'Source Sans Pro', sans-serif; */
+}
+
+.bloc-tabs {
+  display: flex;
+}
+
+.tabs {
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+  background: black;
+  display: flex;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+  color: white;
+  /* font-size: 20px; */
+}
+@media screen and (min-width: 992px) {
+  .tabs {
+    font-size: 20px !important;
+  }
+}
+/* .tabs:not(:last-child) {
+    border-right: 1px solid rgba(0, 0, 0, 0.274);
+} */
+
+.active-tabs {
+  background: rgb(88 147 241);
+  /* border-bottom: 1px solid transparent; */
+}
+
+.active-tabs::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% + 2px);
+  height: 5px;
+  /* background: rgb(88, 147, 241); */
+}
+
+button {
+  border: none;
+}
+
+.content-tabs {
+  flex-grow: 1;
+}
+
+.content {
+  background: #f1f1f1;
+  padding: 3px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.content h2 {
+  padding: 0px 0 5px 0px;
+}
+
+.content hr {
+  width: 100px;
+  height: 2px;
+  background: #222;
+  margin-bottom: 5px;
+}
+
+.content p {
+  width: 100%;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+.active-content {
+  display: block;
+}
+.Navlink {
+  display: inline-flex;
+}
+.slash {
+  padding: 8px;
+}
+.bloc-tabs {
+  margin-top: 30px;
+}
+.DateSelect {
+  margin: 2px;
+}
